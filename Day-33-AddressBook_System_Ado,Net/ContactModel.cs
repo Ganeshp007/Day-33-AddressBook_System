@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Day_33_AddressBook_System_Ado_Net
 {
-    internal class ContactModel
+    public class ContactModel
     {
+        public int PersonId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public long  ZipCode { get; set; }
         public long MobileNo { get; set; }
         public string EmailId { get; set; }
     }
