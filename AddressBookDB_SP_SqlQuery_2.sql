@@ -1,6 +1,6 @@
-﻿-- Stored Procedure (SP)  for ado.net  AddressBookDB project
+﻿-- Stored Procedure (SP)  for ado.net  AddressBookDB project to insert records
 
-create proc SpAdd_AddressBook_Details
+create procedure [dbo].[SpAdd_AddressBook_Details]
 @FirstName varchar(20),
 @LastName varchar(20),
 @Address varchar(60),
